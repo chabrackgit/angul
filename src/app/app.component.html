@@ -1,7 +1,4 @@
-<br>
+<input type="text" [(ngModel)]= "color">
 
-<input type="text" [(ngModel)]="color">
 
-<div class="square"
-  [style.backgroundColor]="color"
-></div>
+<div class="square" [class.bluesquare]="color === 'blue'"></div>
