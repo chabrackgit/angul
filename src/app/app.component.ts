@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  public displayButton = true; 
+  public color = "green"; 
 
 }

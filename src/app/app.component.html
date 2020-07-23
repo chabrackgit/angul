@@ -1,2 +1,7 @@
-<button (click)="displayButton=!displayButton" >button</button>
-<p *ngIf="displayButton" >bonjour</p>
+<br>
+
+<input type="text" [(ngModel)]="color">
+
+<div class="square"
+  [style.backgroundColor]="color"
+></div>
