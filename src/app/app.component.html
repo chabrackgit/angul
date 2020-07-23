@@ -1,8 +1,2 @@
-<br>
-<br>
-<br>
-<br>
-<br>
-<input type="text" [(ngModel)]="content" />
-<hr>
-<p>{{ content }}</p>
+<button (click)="displayButton=!displayButton" >button</button>
+<p *ngIf="displayButton" >bonjour</p>

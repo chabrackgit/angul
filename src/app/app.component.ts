@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  public content = "salut";
+  public displayButton = true; 
 
 }
