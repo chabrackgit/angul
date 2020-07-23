@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angul"
+    }
+  },
+  "defaultProject": "angul",
+  "cli": {
+    "analytics": false
+  }
 }
