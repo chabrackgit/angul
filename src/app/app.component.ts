@@ -6,7 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
-  public color ="";
+
+
+  public users: Array<{nom: string}> = [
+    {
+      nom: 'Mohamed'
+    },
+    {
+      nom: 'Didine'
+    },
+    {
+      nom:'Hassan'
+    }
+  ];
+
 
 }
